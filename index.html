@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container" id="quiz">
+        <h2>Quize Test</h2>
+        <!---The following divs are used to display the question and the options. The options are generated dynamically using JavaScript. -->
+        <div id="question" class="question">Question</div> 
+        <div class="choice" id="choices"></div>
+
+        <!---The following divs are used to display the feedback and the score. The feedback is displayed when the user selects an option. The score is displayed at the end of the quiz. */-->
+        <div  id="feedback" class="feed"></div>
+
+            <div class="score" id="score"></div>
+            <button class="btn" id="next" style="display:none;">Next  Question</button>
+
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
