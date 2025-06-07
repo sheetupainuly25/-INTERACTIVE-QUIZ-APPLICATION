@@ -1,5 +1,5 @@
 # -INTERACTIVE-QUIZ-APPLICATION
- company name" codetech it solution
+ company name: codetech it solution
  name: Sheetal Painuly
  DOMAIN: FRONT END DEVLOPMENT
  INTERN ID:CT08DK847
